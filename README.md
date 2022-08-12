@@ -21,21 +21,23 @@ after creating the datasets and running migrations
 
 
 List of databases
-Name | Owner | Encoding | Collate | Ctype | Access privileges
+
+Name           | Owner    | Encoding | Collate                    | Ctype                      | Access privileges
 ---------------+----------+----------+----------------------------+----------------------------+-----------------------
-postgres | postgres | UTF8 | English_United States.1252 | English_United States.1252 |
-postgres_test | postgres | UTF8 | English_United States.1252 | English_United States.1252 |
+postgres       | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+postgres_test  | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
 
 
 
 List of relations
-Schema | Name | Type | Owner
+
+Schema  | Name           | Type  | Owner
 --------+----------------+-------+----------
-public | migrations | table | postgres
-public | order_products | table | postgres
-public | orders | table | postgres
-public | products | table | postgres
-public | users | table | postgres
+public  | migrations     | table | postgres
+public  | order_products | table | postgres
+public  | orders         | table | postgres
+public  | products       | table | postgres
+public  | users          | table | postgres
 
 ## running
 
